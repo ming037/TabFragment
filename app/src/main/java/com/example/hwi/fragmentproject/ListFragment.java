@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 
 public class ListFragment extends Fragment //min SDK버전이 11보다 낮으면 support.v4.app.Fragment를 import해야한다.
 {
+
     //아이템이 클릭되었을 때 변화를 관리하는 interface이다. 이것을 MainActivity에서 implement하면 된다.
     public interface OnRecipeSelectedInterface{
         void onListRecipeSelected(int index);
